@@ -1,0 +1,9 @@
+function randomWholeNum() {
+
+  // Only change code below this line
+  let randomNum = 0;
+  randomNum = Math.floor(Math.random() * 10);
+  return randomNum;
+}
+
+console.log(randomWholeNum()

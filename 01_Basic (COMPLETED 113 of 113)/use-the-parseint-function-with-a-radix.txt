@@ -1,0 +1,11 @@
+function convertToInteger(str) {
+let radix = 2;
+//radix = Math.floor(str.length);
+const a = parseInt(str, radix);
+return a;
+}
+
+convertToInteger("10011");
+console.log(convertToInteger("10011"))
+console.log(convertToInteger("111001"))
+console.log(convertToInteger("JamesBond"))

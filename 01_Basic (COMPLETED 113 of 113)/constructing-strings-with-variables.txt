@@ -1,0 +1,5 @@
+// Only change code below this line
+const myName = "Rodrigo Monteiro";
+// my name is giovanni giorgi, but everyone calls me giorgio
+// hi my name is, what, my name is, who, my name is, chshshshsh skrp drp prp slim shady
+const myStr = "My name is " + myName + "and I am well!";

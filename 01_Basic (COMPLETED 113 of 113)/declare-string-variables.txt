@@ -1,0 +1,3 @@
+// declaring variables
+var myFirstName = "Rodrigo";
+var myLastName = "Monteiro";

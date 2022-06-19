@@ -1,0 +1,43 @@
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum - startNum === 0) {
+    return [startNum];
+  } else {
+    var numbers = rangeOfNumbers(startNum, endNum - 1);
+      numbers.push(endNum);
+      return numbers;
+  }
+}
+
+console.log(rangeOfNumbers(1,5));
+console.log(rangeOfNumbers(4,4));
+  
+  /*let arr = [];
+  let n = 0;
+  n = Math.floor(endNum - startNum);
+  let o = 0;
+  o = n - 1;
+  if (n <= 0) {
+    return [startNum];
+  } else {
+    //arr = [startNum, startNum + n-3, startNum + n-2, startNum + n-1, endNum];
+    arr = [startNum + n-o]
+    return arr; 
+  }*/
+
+  
+  /*let arr = [];
+  arr[0] = Math.floor(startNum);
+  arr[arr.length] = Math.floor(endNum);
+  let n = 0; 
+  n = Math.floor(endNum) - Math.floor(startNum);
+  if (n = 0) {
+    arr = [];
+    arr = Math.floor(startNum);
+    return arr;
+  } else {
+    return rangeOfNumbers(startNum, endNum) + arr[n-1];
+  }*/
+
+  //arr = arr.push;
+  //rangeOfNumbers = Math.floor(Math.random() * (endNum - startNum + 1)) + startNum;
+  //return arr;

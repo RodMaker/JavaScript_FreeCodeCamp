@@ -1,0 +1,21 @@
+// Only change code below this line
+function countdown(n){
+  if (n < 1) {
+    return [];
+  } else {
+    const arr = countdown(n-1);
+    arr.unshift(n);
+    return arr;
+
+    /*const countArray = countdown(n-n);
+    countArray.push(n,(n-1),(n-2),(n-3),(n-4));*/
+
+    /*let m = n;
+    m = n - n.length;
+    const countArray = countdown(n-n);
+    countArray.push(n,m);*/
+  }
+}
+
+console.log(countdown(5));
+// Only change code above this line
